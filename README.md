@@ -1,3 +1,9 @@
+# Trase
+# James Mallari, Jayden Tumboken, Jordan Benzon, James Suba
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
