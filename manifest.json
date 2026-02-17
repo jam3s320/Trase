@@ -1,13 +1,15 @@
 {
-    "manifest_version": 3,
-    "name": "Trase Phising Scanner",
-    "version": "1.0.0",
-    "action": {
-        "default_popup": "index.html"
-    },
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ]
-
+  "manifest_version": 3,
+  "name": "Trase Phishing Scanner",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"]
+    }
+  ]
 }
